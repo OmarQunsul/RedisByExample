@@ -9,7 +9,6 @@ But you can imagine the Redis database as something like this following graph.
 
 ![Redis Database](images/redis-database.png)
 
-
 As you can see in the presented Redis Database example above, we have 4 pairs of keys/values, 2 of type string, 1 of type 
 list, and 1 of type list. But all the keys are simple strings "key1", "key2", "key3", "key4".
 
@@ -25,11 +24,11 @@ with a string that represents the type of the string.
 
 Running these commands against our previous example sample database, will give these corresponding values
 
-| Command       | Result           |
-| ------------- |:-------------:| -----:|
-| type key1      | string |
-| type key2      | list |
-| type foobar      | none |
+| Command          | Result        |
+| ---------------- | ------------- |
+| type key1        | string        |
+| type key2        | list          |
+| type foobar      | none          |
 
 As you can see, asking for a type of a key that doesn't exist, returns none.
 
@@ -41,9 +40,14 @@ Redis commands receive different numbers and types of arguments. Some commands d
 we want to know the number of the keys in the database, we can use some other command [dbsize](https://redis.io/commands/dbsize)
 that will simply return the number of the items in the database. If we run it against our database above, we should get (4).
 
-| Command       | Result           |
-| ------------- |:-------------:| -----:|
-| dbsize      | 4 |
+| Command       | Result      |
+| ------------- |-------------|
+| dbsize        | 4           |
 
 So now that we are familiar with the basic principles of what a redis database is, let's get into more 
 examples of the simplest type of objects that we can store in a Redis database, **strings**. In the next section.
+
+
+## Shortcuts
+
+- Back to the [Table of Contents](../README.md)
