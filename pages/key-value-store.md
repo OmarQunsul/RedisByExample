@@ -50,4 +50,5 @@ examples of the simplest type of objects that we can store in a Redis database, 
 
 ## Shortcuts
 
+- [Strings](strings.md)
 - Back to the [Table of Contents](../README.md)

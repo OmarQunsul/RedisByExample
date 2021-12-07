@@ -77,3 +77,8 @@ Let's say that we want to clean up the whole database, and start over. For this,
 we can use the command [flushdb](https://redis.io/commands/flushdb) that takes no arguments.
 It simply cleans up the whole database. Running `dbsize` immediately after `flushdb` will definitely
 gives you `0`.
+
+## Shortcuts
+
+- [Expiring Keys](expiring-keys.md)
+- Back to the [Table of Contents](../README.md)
