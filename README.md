@@ -1,30 +1,7 @@
-# Redis by Example Tutorials
+# Redis By Example
 
-Welcome to the **Redis by Example** Tutorials. In this series I want to give an introduction
-to Redis and its use cases, with some by real world examples.
+The source code of [redisbyexample.com](https://www.redisbyexample.com)
 
-This is an ongoing work. I will try to keep chapters and examples once every while,
-and to keep the information up-to-date.
+Powered by Jekyll
 
-## Table of Contents
-
-### Main Chapters
-
-- [Introduction to Redis](pages/introduction.md)
-- [Redis as a Key-Value Store](pages/key-value-store.md)
-- [Strings](pages/strings.md)
-- [Expiring Keys](pages/expiring-keys.md)
-
-More chapters are coming
-
-### Appendices
-
-- [Installing Redis](pages/installing-redis.md)
-- [Installing Ruby and Sinatra](pages/installing-ruby-and-sinatra.md)
-
-More sections are coming
-
-## License
-
-This work is copyright Omar Qunsul and licensed under a 
-[Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/).
+It uses Gitlab Pages for hosting. See the file `.gitlab-ci.yml` for the deployment details.

@@ -1,4 +1,7 @@
-# Strings - Let's get back to the basics
+---
+layout: page
+title: "Redis as a Key/Value Store"
+---
 
 Strings are the simplest type of object that we can store in the Redis database. Each key simply
 maps to another string value. Nothing fancy about. But it can be powerful than you might expect.

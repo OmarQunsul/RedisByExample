@@ -1,4 +1,7 @@
-# Redis as a Key Value Store
+---
+layout: page
+title: "Strings - Let's get back to the basics"
+---
 
 Let's start with the aforementioned concept of key/value store. As opposed to Relational Databases, 
 where objects are stored in tables, Redis stores objects as a map of a key to a value. 
@@ -7,7 +10,7 @@ We will go over each one of the types in its own section.
 
 But you can imagine the Redis database as something like this following graph.
 
-![Redis Database](images/redis-database.png)
+![Redis Database](/assets/redis-database.png)
 
 As you can see in the presented Redis Database example above, we have 4 pairs of keys/values, 2 of type string, 1 of type 
 list, and 1 of type list. But all the keys are simple strings "key1", "key2", "key3", "key4".

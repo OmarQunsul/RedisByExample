@@ -1,0 +1,7 @@
+url: https://www.redisbyexample.com
+baseurl: ""
+title: "Redis by Example"
+exclude:
+  - vendor
+  - README.md
+  - LICENSE

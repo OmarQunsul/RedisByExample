@@ -1,0 +1,29 @@
+$backgroundColor: #ccc;
+$bodyColor: #000000;
+
+body {
+  background: $backgroundColor;
+  color: $bodyColor;
+}
+
+pre {
+  overflow-y: hidden;
+  padding: 12px 15px;
+  margin: 5px;
+  background-color: #efefef;
+  border-left: 3px solid #5a5a5a;
+}
+
+b code {
+  font-weight: 900;
+  color: blue;
+}
+
+code {
+  color: #222;
+  font-weight: 500;
+}
+
+.content {
+  background-color: white;
+}

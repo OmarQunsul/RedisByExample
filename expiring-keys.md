@@ -1,4 +1,7 @@
-# Expiring Keys
+---
+layout: page
+title: "Expiring Keys"
+---
 
 Redis stores all the elements, in memory, as a pair of keys and values. As it is a
 very common case to use in-memory databases as a Cache Store, it makes sense sometimes

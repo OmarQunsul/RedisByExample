@@ -1,4 +1,7 @@
-# Introduction
+---
+layout: page
+title: "Introduction to Redis"
+---
 
 ## What is Redis
 
