@@ -1,14 +1,29 @@
----
-layout: default
----
-<h1>{{ page.title }}</h1>
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
 
-<a href="/" class="btn btn-primary">Table of Contents</a>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 
-<hr />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 
-{{ content }}
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 content p-4">
+          <a href="/" class="btn btn-primary">Table of Contents</a>
+          <hr />
+          {{ content }}
+          <hr />
+          <a href="/" class="btn btn-primary">Table of Contents</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
 
-<hr />
-
-<a href="/" class="btn btn-primary">Table of Contents</a>
