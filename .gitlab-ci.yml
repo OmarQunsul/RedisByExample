@@ -8,8 +8,13 @@ cache:
   paths:
     - vendor/
 
+stages:
+  - build
+  - test
+  - deploy
+
 pages:
-  stages: deploy
+  stage: deploy
   script:
     - gem install bundler
     - bundle install
