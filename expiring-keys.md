@@ -29,3 +29,22 @@ what happens
 127.0.0.1:6379> get name
 (nil)
 ```
+
+## Setting Expiring String Keys Immediately
+
+The command `expire` works on all the types of the values. So far we have been introduced only to **Strings**, so
+let's see how to set expiring keys immediately using the set command.
+
+The [set](https://redis.io/commands/set) can take different other optional parameters after the value.
+one of them is `EX`, which is followed by the **number of seconds that the value will live**. In the
+following example we can set the key `name` to `omar`, and it's going to expire after 5 seconds.
+
+```
+127.0.0.1:6379> set name omar EX 5
+OK
+```
+
+If you want extra accuracy, you can pass `PX <milliseconds>` instead. For example `set name omar PX 2500`, will
+set the value, and it's going to be removed after 2.5 seconds.
+
+Keep on mind that `set` is only used for string values.
