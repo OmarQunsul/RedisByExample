@@ -49,9 +49,3 @@ that will simply return the number of the items in the database. If we run it ag
 
 So now that we are familiar with the basic principles of what a redis database is, let's get into more 
 examples of the simplest type of objects that we can store in a Redis database, **strings**. In the next section.
-
-
-## Shortcuts
-
-- [Strings](strings.md)
-- Back to the [Table of Contents](../README.md)
