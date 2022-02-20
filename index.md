@@ -17,6 +17,7 @@ and to keep the information up-to-date.
 - [Redis as a Key-Value Store](key-value-store.html)
 - [Strings](strings.html)
 - [Expiring Keys](expiring-keys.html)
+- [Lists](lists.html)
 
 More chapters are coming
 
